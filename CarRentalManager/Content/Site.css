@@ -1,0 +1,125 @@
+﻿html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+}
+
+.body-form {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow: auto;
+}
+
+.main-body {
+    position: relative;
+    padding: 25px 50px;
+    height: calc(100% - 60px);
+}
+
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.flex-container {
+    display: flex;
+    height: 100%;
+}
+
+.flex-container-vertical {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.flex-container.centered, .flex-container-vertical.centered {
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container.spaced-around {
+    justify-content: space-around;
+}
+
+.flex-container-vertical.spaced-around {
+    align-items: stretch;
+}
+
+.flex-container.horizontal-center {
+    justify-content: center;
+}
+
+.flex-container-vertical.horizontal-center {
+    align-items: center;
+}
+
+.form {
+    width: 100%;
+    height: 100%;
+}
+
+.formField {
+    margin-top: 15px;
+    width: 80%;
+    min-width: 250px;
+    max-width: 500px;
+}
+
+.form-control {
+    max-width: initial;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+table th,
+table td {
+    padding: 12px 15px;
+}
+
+table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    .jumbotron {
+        margin-top: 20px;
+    }
+
+    .body-content {
+        padding: 0;
+    }
+}
