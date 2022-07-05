@@ -15,8 +15,6 @@ https://carrentalmanager20220705135329.azurewebsites.net
 To login in you must use a valid Inspector email and an Inspector No. for the password.
 A list of valid details:
 
-        Email              | Password
-        
 bud@therideyourent.com     -   I101
 
 tracy@therideyourent.com   -   I102
